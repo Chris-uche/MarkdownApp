@@ -1,0 +1,36 @@
+*{
+box-sizing: border-box;
+}
+
+
+
+body{
+  background-color:white;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.markdown_container{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+textarea{
+  background-color: #eff1f5;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 22px;
+
+
+}
+
+.markdown_preview{
+  padding: 20px;
+
+}
+
+/*# sourceMappingURL=/App.d36a57b6.css.map */
